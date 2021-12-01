@@ -1,0 +1,30 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "Solidity Storage",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "truffle develop",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "truffle",
+    "web3",
+    "ethereum"
+  ],
+  "author": "Mariusz Walania",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "@openzeppelin/contracts": "^4.4.0"
+  }
+}
